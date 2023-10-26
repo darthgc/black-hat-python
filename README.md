@@ -1,2 +1,12 @@
-# black-hat-python
+# Black Hat Python
+
 Source code related to the book Black Hat Python (Second Edition)
+
+## Setup
+
+- `python -m venv venv3`
+- `source venv3/bin/activate`
+
+Once done: `deactivate`
+
+`pip install lxml`
