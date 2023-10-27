@@ -2,7 +2,7 @@ import socket
 import threading
 
 IP = "0.0.0.0"
-PORT = 9998
+PORT = 9997
 
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -12,7 +12,7 @@ def main():
 
     while True:
         client, address = server.accept()
-        print(f"Accepted connection from {address[0]}:{address[1]}")
+        print(f"[*] Accepted connection from {address[0]}:{address[1]}")
         client_handler = threading.Thread(target=handle_client,args=(client,))
         client_handler.start()
 
