@@ -1,8 +1,8 @@
 import socket
 import os
 
-# host to listen on
-HOST = "192.168.1.203"
+# host to listen on (not loopback)
+HOST = "192.168.2.50"
 
 def main():
     # create raw socket, bin to public interface

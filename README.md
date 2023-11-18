@@ -9,4 +9,8 @@ Source code related to the book Black Hat Python (Second Edition)
 
 Once done: `deactivate`
 
-`pip install lxml`
+Dependencies:
+
+- `pip install lxml`
+- `pip install paramiko`
+- `pip install scapy`
