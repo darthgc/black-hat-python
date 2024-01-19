@@ -24,6 +24,8 @@ Python dependencies:
 - `pip install requests`
 - `pip install github3.py`
 - `pip install pyWinhook`
+- `pip install pywin32`
+- `pip install pycryptodomex`
 
 OS dependencies:
 
