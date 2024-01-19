@@ -1,5 +1,7 @@
 # Ignore virtual environment
 venv3/*
+*.pri
+*.pub
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
